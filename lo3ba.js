@@ -92,7 +92,7 @@ function check()
                 if(n%2==0)
                 {
                     matrix[i][j]=2;
-                    red++
+                    red++ ;
                     document.getElementById(i*100+j).style.backgroundColor='#f00';
                     bool=true;
                 }
